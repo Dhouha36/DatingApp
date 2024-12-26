@@ -19,6 +19,7 @@ export const appConfig: ApplicationConfig = {
     provideToastr({
       positionClass: 'toast-bottom-right' 
     }),
-    importProvidersFrom(NgxSpinnerModule)
+    importProvidersFrom(NgxSpinnerModule),
+    
   ]
 };
